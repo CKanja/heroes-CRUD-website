@@ -222,3 +222,13 @@ textarea {
   margin-right: auto;
   /* width: 50%; */
 }
+
+@media screen and (max-width: 900px) {
+  .hero {
+    background-image: url("/squadxImages/xmen4.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    background-attachment: fixed;
+  }
+}

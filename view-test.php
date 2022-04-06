@@ -1,5 +1,8 @@
 <?php
 require_once('db.php');
+
+session_start();
+
 if (!empty($database)) {
     $res = $database->read();
 }
